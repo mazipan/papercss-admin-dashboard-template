@@ -20,11 +20,265 @@
 
 <body>
 
-  <h1>Hello World!</h1>
-  
+  <header class="header shadow">
+    <div class="brand">Admin Template PaperCSS</div>
+    <div class="menu">
+      <nav class="menu-bar">
+        <a href="#" class="menu-item menu--active">Feature</a>
+        <a href="#" class="menu-item">Pricing</a>
+        <a href="#" class="menu-item">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="row">
+
+    <aside class="col-3 col sidebar">
+      <div class="sidebar-title">
+        General
+      </div>
+      <ul class="sidebar-menu">
+        <li>
+          <a class="sidebar--active" href="#">
+            <i class="fa fa-tachometer"></i> Dashboard
+          </a>
+        </li>
+      </ul>
+      <div class="sidebar-title">
+        Administration
+      </div>
+      <ul class="sidebar-menu">
+        <li>
+          <a href="forms.html">
+            <i class="fa fa-pencil-square-o"></i> Forms
+          </a>
+        </li>
+        <li>
+          <a href="ui-elements.html">
+            <i class="fa fa-desktop"></i> UI Elements
+          </a>
+        </li>
+        <li>
+          <a href="tables.html">
+            <i class="fa fa-table"></i> Tables
+          </a>
+        </li>
+        <li>
+          <a href="presentations.html">
+            <i class="fa fa-bar-chart"></i> Presentations
+          </a>
+        </li>
+
+        <li>
+          <a class="">
+            <i class="fa fa-cog"></i> Settings</a>
+          <ul>
+            <li>
+              <a href="#">Members</a>
+            </li>
+            <li>
+              <a href="#">Plugins</a>
+            </li>
+            <li>
+              <a href="#">Add a member</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="sidebar-title">
+        Live On
+      </div>
+      <ul class="sidebar-menu">
+        <li>
+          <a href="#">
+            <i class="fa fa-bug"></i> Additional Pages
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-windows"></i> Extras
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-laptop"></i> Landing Page
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+    <article class="col-9 col main">
+
+      <div class="alert alert-warning">
+        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+        System seems have high response time
+      </div>
+
+      <div class="row">
+
+        <div class="col-3">
+          <div class="card dashboard background-secondary">
+            <div class="card-body">
+              <h4 class="card-title">Total Visitor</h4>
+              <div class="card-text">
+                500K
+              </div>
+              <i class="fa fa-users" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card dashboard background-success">
+            <div class="card-body">
+              <h4 class="card-title">Response Time (Avg)</h4>
+              <div class="card-text">
+                200ms
+              </div>
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card dashboard background-warning">
+            <div class="card-body">
+              <h4 class="card-title">Throughput (Avg)</h4>
+              <div class="card-text">
+                6.86k rpm
+              </div>
+              <i class="fa fa-thermometer-half" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card dashboard background-danger">
+            <div class="card-body">
+              <h4 class="card-title">Request/m</h4>
+              <div class="card-text">
+                5K
+              </div>
+              <i class="fa fa-signal" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <!-- NOTIFICATION start -->
+        <div class="col-6">
+          <div class="card notification">
+            <div class="card-header">
+              <i class="fa fa-bell-o" aria-hidden="true"></i>
+              Notifications
+            </div>
+            <div class="card-body">
+              <ul>
+                <li class="background-success">
+                  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                  <span>Server 172.1.1.1 have high response</span>
+                  <div class="date">1 hour ago at 8:30 am</div>
+                </li>
+
+                <li class="background-secondary">
+                  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                  <span>Server 172.1.1.1 have high response</span>
+                  <div class="date">1 hour ago at 8:30 am</div>
+                </li>
+
+                <li class="background-primary">
+                  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                  <span>Server 172.1.1.1 have high response</span>
+                  <div class="date">1 hour ago at 8:30 am</div>
+                </li>
+
+                <li class="background-warning">
+                  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                  <span>Server 172.1.1.1 have high response</span>
+                  <div class="date">1 hour ago at 8:30 am</div>
+                </li>
+
+                <li class="background-danger">
+                  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                  <span>Server 172.1.1.1 have high response</span>
+                  <div class="date">1 hour ago at 8:30 am</div>
+                </li>
+
+                <li class="background-warning">
+                  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                  <span>Server 172.1.1.1 have high response</span>
+                  <div class="date">1 hour ago at 8:30 am</div>
+                </li>
+
+              </ul>
+            </div>
+            <div class="card-footer">
+              <a class="card-link" href="#">See all notifications</a>
+            </div>
+          </div>
+        </div>
+        <!-- NOTIFICATION end -->
+
+        <!-- TABLE start -->
+        <div class="col-6">
+          <div class="card notification">
+            <div class="card-header">
+              <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+              Latest updated data
+            </div>
+            <div class="card-body">
+
+              <table>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Bob Dylan</td>
+                    <td>Musician</td>
+                    <td>California, USA</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Eric Clapton</td>
+                    <td>Musician</td>
+                    <td>Ohio, USA</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Daniel Kahneman</td>
+                    <td>Psychologist</td>
+                    <td>California, USA</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="card-footer">
+              <a class="card-link" href="#">See detail</a>
+            </div>
+          </div>
+
+        </div>
+        <!-- TABLE end -->
+
+      </div>
+
+    </article>
+  </main>
+
   <script src="js/main.js"></script>
 
-  <script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"https://www.mazipan.github.io/","name":"Irfan Maulana | Front End Developer","author":"Irfan Maulana","image":"http://mazipan.github.io/images/irfan-maulana.jpg","description":"Irfan Maulana is Front End Developer from Indonesia - Man that craft some code to build a beauty and readable code, experienced in web and desktop technology.","sameAs":["https://www.facebook.com/mazipanneh","https://instagram.com/maz_ipan","https://twitter.com/Maz_Ipan","https://id.linkedin.com/in/irfanmaulanamazipan","https://www.slideshare.net/IrfanMaulana21","https://github.com/mazipan"]}</script> <script type="application/ld+json">{"@context":"http://schema.org","@type":"Person","email":"mailto:mazipanneh@gmail.com","image":"http://mazipan.github.io/images/irfan-maulana.jpg","jobTitle":"Software Engineer","name":"Irfan Maulana","url":"https://www.mazipan.github.io/","sameAs":["https://www.facebook.com/mazipanneh","https://instagram.com/maz_ipan","https://twitter.com/Maz_Ipan","https://id.linkedin.com/in/irfanmaulanamazipan","https://www.slideshare.net/IrfanMaulana21","https://github.com/mazipan"]}</script>
+  <script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"https://www.mazipan.github.io/","name":"Irfan Maulana | Front End Developer","author":"Irfan Maulana","image":"http://mazipan.github.io/images/irfan-maulana.jpg","description":"Irfan Maulana is Front End Developer from Indonesia - Man that craft some code to build a beauty and readable code, experienced in web and desktop technology.","sameAs":["https://www.facebook.com/mazipanneh","https://instagram.com/maz_ipan","https://twitter.com/Maz_Ipan","https://id.linkedin.com/in/irfanmaulanamazipan","https://www.slideshare.net/IrfanMaulana21","https://github.com/mazipan"]}</script>
+  <script type="application/ld+json">{"@context":"http://schema.org","@type":"Person","email":"mailto:mazipanneh@gmail.com","image":"http://mazipan.github.io/images/irfan-maulana.jpg","jobTitle":"Software Engineer","name":"Irfan Maulana","url":"https://www.mazipan.github.io/","sameAs":["https://www.facebook.com/mazipanneh","https://instagram.com/maz_ipan","https://twitter.com/Maz_Ipan","https://id.linkedin.com/in/irfanmaulanamazipan","https://www.slideshare.net/IrfanMaulana21","https://github.com/mazipan"]}</script>
 
   <script type="application/ld+json">
   {

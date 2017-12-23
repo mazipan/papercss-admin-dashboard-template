@@ -1,0 +1,141 @@
+$text : #dedbd0;
+
+.header{
+  padding: 1em;
+  background-color: #41403e;
+  color: $text;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  &-bar{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-item{
+    margin: 0 .5em;
+    color: $text;
+    text-decoration: none;
+    background: none;
+    padding-bottom: .5em;
+
+    &:visited{
+      color: $text;
+      text-decoration: none;
+    }
+  }
+
+  &--active{
+    border-bottom: 2px solid $text;
+  }
+}
+
+.sidebar{
+  background-color: #504f4c;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0;
+
+  &-title{
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: .5em 0;
+    padding: .5em .5em .3em .5em;
+    font-size: .8rem;
+    line-height: 1.5;
+    color: #868276;
+  }
+
+  &-menu{    
+    padding: 0 .5em;
+    margin: 0;
+
+    li{
+      padding: .2em 0;
+      display: block;
+
+      &::before{
+        content: '';
+      }
+
+      a{
+        position: relative;
+        display: block;
+        padding: .5em 1.3em;
+
+        color: $text;
+        text-decoration: none;
+        background-image: none;
+        font-size: .8rem;
+        border-radius: 2px;
+        border-left: 5px solid #504f4b;
+
+        &:hover{
+          background-color: rgba(0, 0, 0, 0.1);
+          border-left: 5px solid #3a3937 !important;
+        }
+
+        &:visited{
+          color: $text;
+          text-decoration: none;
+        }
+
+      }
+    }
+  }
+
+  &--active{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #3a3937 !important;
+  }
+}
+
+.dashboard{
+  border: 0;
+  margin-right: .5em;
+  
+  .card{
+    &-title{
+      font-size: .7rem;
+    }
+    &-text{
+      font-size: 1.6rem;
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .fa{
+    font-size: 1.8rem;
+  }
+
+}
+
+.notification{
+  margin-right: .5em;
+
+  .card-body{
+    padding: .25em !important;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+
+    li{
+      padding: .5em .5em .25em .5em;
+      text-indent: 0;
+
+      &::before{
+        content: '';
+      }
+
+      .date{
+        font-size: .7rem;
+        padding-left: 1.3rem;
+        color: #afacac;
+      }
+    }
+  }
+}

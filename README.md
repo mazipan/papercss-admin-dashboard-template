@@ -1,6 +1,8 @@
 # papercss-admin-dashboard-template
 :scroll: Free admin dashboard template built with PaperCSS
 
+[![PaperCSS Admin Template](https://raw.githubusercontent.com/mazipan/papercss-admin-dashboard-template/master/screenshoot.png)](https://mazipan.github.io/papercss-admin-dashboard-template/)
+
 ## Development
 + Install dependencies : `npm install` or `yarn install`
 + Run local : `npm run dev`
