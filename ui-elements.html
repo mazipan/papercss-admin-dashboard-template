@@ -16,14 +16,14 @@
 
   <link rel="stylesheet" href="dist/main.css">
 
-   <!-- GOOGLE ANALYTICS AND FRIENDS -->
-   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-   <script>
-   (adsbygoogle = window.adsbygoogle || []).push({
-     google_ad_client: "ca-pub-5442972248172818",
-     enable_page_level_ads: true
-   });
-   </script>
+  <!-- GOOGLE ANALYTICS AND FRIENDS -->
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-5442972248172818",
+      enable_page_level_ads: true
+    });
+  </script>
 
 </head>
 
@@ -117,180 +117,128 @@
     </aside>
 
     <article class="col-9 col main">
-      
+
       <div class="breadcrumb">
         <a href="#">
-            <i class="fa fa-home" aria-hidden="true"></i>  Home
+          <i class="fa fa-home" aria-hidden="true"></i> Home
         </a>
 
-        <i class="fa fa-angle-double-right" aria-hidden="true"></i> 
+        <i class="fa fa-angle-double-right" aria-hidden="true"></i>
 
         <a href="#">
-            <i class="fa fa-desktop" aria-hidden="true"></i> UI Elements
+          <i class="fa fa-desktop" aria-hidden="true"></i> UI Elements
         </a>
       </div>
 
-      <div class="alert alert-warning">
-        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-        System seems have high response time
+
+      <!-- BUTTON VARIANS -->
+      <h3>BUTTONS</h3>
+      <div class="row">
+        <button class="btn-large">Large</button>
+        <button>Default</button>
+        <button class="btn-small">Small</button>
+        <a href="#" class="paper-btn">Link</a>
+        <button class="disabled">Disabled</button>
+        <button disabled>Disabled</button>
       </div>
 
       <div class="row">
-
-        <div class="col-3">
-          <div class="card dashboard background-secondary">
-            <div class="card-body">
-              <h4 class="card-title">Total Visitor</h4>
-              <div class="card-text">
-                500K
-              </div>
-              <i class="fa fa-users" aria-hidden="true"></i>
-            </div>
-          </div>
+        <div class="col-6 col">
+          <button class="btn-block">Block level</button>
         </div>
-
-        <div class="col-3">
-          <div class="card dashboard background-success">
-            <div class="card-body">
-              <h4 class="card-title">Response Time (Avg)</h4>
-              <div class="card-text">
-                200ms
-              </div>
-              <i class="fa fa-clock-o" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-3">
-          <div class="card dashboard background-warning">
-            <div class="card-body">
-              <h4 class="card-title">Throughput (Avg)</h4>
-              <div class="card-text">
-                6.86k rpm
-              </div>
-              <i class="fa fa-thermometer-half" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-3">
-          <div class="card dashboard background-danger">
-            <div class="card-body">
-              <h4 class="card-title">Request/m</h4>
-              <div class="card-text">
-                5K
-              </div>
-              <i class="fa fa-signal" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-
       </div>
 
+      <!-- BUTTON COLORS -->
+      <h3>BUTTON COLORS</h3>
       <div class="row">
+        <input type="button" class="paper-btn btn-primary" value="Primary" />
+        <input type="button" class="btn-secondary" value="Secondary" />
+        <button class="btn-success">Success</button>
+        <button class="btn-warning">Warning</button>
+        <button class="btn-danger">Danger</button>
+      </div>
 
-        <!-- NOTIFICATION start -->
-        <div class="col-6">
-          <div class="card notification">
-            <div class="card-header">
-              <i class="fa fa-bell-o" aria-hidden="true"></i>
-              Notifications
-            </div>
-            <div class="card-body">
-              <ul>
-                <li class="background-success">
-                  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-                  <span>Server 172.1.1.1 have high response</span>
-                  <div class="date">1 hour ago at 8:30 am</div>
-                </li>
+      <!-- POPOVERS -->
+      <h3>POPOVERS</h3>
+      <div class="row">
+        <p popover-left="Popover on left">Popover left position</p>
+        <p popover-top="Popover on top">Popover top position</p>
+        <p popover-bottom="Popover on bottom">Popover bottom position</p>
+        <p popover-right="Popover on right">Popover right position</p>
+      </div>
 
-                <li class="background-secondary">
-                  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-                  <span>Server 172.1.1.1 have high response</span>
-                  <div class="date">1 hour ago at 8:30 am</div>
-                </li>
-
-                <li class="background-primary">
-                  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-                  <span>Server 172.1.1.1 have high response</span>
-                  <div class="date">1 hour ago at 8:30 am</div>
-                </li>
-
-                <li class="background-warning">
-                  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-                  <span>Server 172.1.1.1 have high response</span>
-                  <div class="date">1 hour ago at 8:30 am</div>
-                </li>
-
-                <li class="background-danger">
-                  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-                  <span>Server 172.1.1.1 have high response</span>
-                  <div class="date">1 hour ago at 8:30 am</div>
-                </li>
-
-                <li class="background-warning">
-                  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-                  <span>Server 172.1.1.1 have high response</span>
-                  <div class="date">1 hour ago at 8:30 am</div>
-                </li>
-
-              </ul>
-            </div>
-            <div class="card-footer">
-              <a class="card-link" href="#">See all notifications</a>
-            </div>
-          </div>
+      <!-- BADGES -->
+      <h3>BADGES</h3>
+      <div class="row">
+        <div>
+          Text
+          <span class="badge">123</span>
         </div>
-        <!-- NOTIFICATION end -->
-
-        <!-- TABLE start -->
-        <div class="col-6">
-          <div class="card notification">
-            <div class="card-header">
-              <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
-              Latest updated data
-            </div>
-            <div class="card-body">
-
-              <table>
-                <thead>
-                  <tr>
-                    <th>#</th>
-                    <th>Name</th>
-                    <th>Position</th>
-                    <th>Location</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td>Bob Dylan</td>
-                    <td>Musician</td>
-                    <td>California, USA</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>Eric Clapton</td>
-                    <td>Musician</td>
-                    <td>Ohio, USA</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>Daniel Kahneman</td>
-                    <td>Psychologist</td>
-                    <td>California, USA</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="card-footer">
-              <a class="card-link" href="#">See detail</a>
-            </div>
-          </div>
-
+        <div>
+          Text
+          <span class="badge secondary">123</span>
         </div>
-        <!-- TABLE end -->
+        <div>
+          Text
+          <span class="badge success">123</span>
+        </div>
+        <div>
+          Text
+          <span class="badge warning">123</span>
+        </div>
+        <div>
+          Text
+          <span class="badge danger">123</span>
+        </div>
+      </div>
 
+      <!-- TEXT COLORS -->
+      <h3>TEXT COLORS</h3>
+      <div class="row">
+        <p class="text-primary">Text primary</p>
+        <p class="text-secondary">Text secondary</p>
+        <p class="text-success">Text success</p>
+        <p class="text-warning">Text warning</p>
+        <p class="text-danger">Text danger</p>
+        <p class="text-muted">Text muted</p>
+      </div>
+
+      <!-- BACKGROUND -->
+      <h3>BACKGROUNDS</h3>
+      <div class="row flex-center">
+        <div class="sm-2 col background-primary">Background primary</div>
+        <div class="sm-2 col background-secondary">Background secondary</div>
+        <div class="sm-2 col background-success">Background success</div>
+        <div class="sm-2 col background-warning">Background warning</div>
+        <div class="sm-2 col background-danger">Background danger</div>
+      </div>
+
+      <!-- BORDERS -->
+      <h3>BORDERS</h3>
+      <div class="row child-borders">
+        <div class="sm-2 col border border-primary">Border primary</div>
+        <div class="sm-2 col border border-secondary">Border secondary</div>
+        <div class="sm-2 col border border-success">Border success</div>
+        <div class="sm-2 col border border-warning">Border warning</div>
+        <div class="sm-2 col border border-danger">Border danger</div>
+        <div class="sm-2 col border background-primary border-white">Border white</div>
+      </div>
+
+      <div class="row flex-spaces child-borders">
+        <div class="sm-3 col border-dashed">Dashed</div>
+        <div class="sm-3 col border-dotted">Dotted</div>
+        <div class="sm-3 col border-dashed border-thick">Dashed Thick</div>
+        <div class="sm-3 col border-dotted border-thick">Dotted Thick</div>
+      </div>
+
+      <!-- ALERTS -->
+      <h3>ALERTS</h3>
+      <div class="row flex-spaces">
+        <div class="alert alert-primary">Alert-primary</div>
+        <div class="alert alert-secondary">Alert-secondary</div>
+        <div class="alert alert-success">Alert-success</div>
+        <div class="alert alert-warning">Alert-warning</div>
+        <div class="alert alert-danger">Alert-danger</div>
       </div>
 
     </article>
@@ -298,13 +246,13 @@
 
   <script src="js/main.js"></script>
 
-   <!-- GOOGLE ANALYTICS AND FRIENDS -->
-   <script>function _trackLink(e,t,n){t||(t="Link"),n||(n="click"),ga("send",{hitType:"event",eventCategory:t,eventAction:n,eventLabel:e})}!function(e,t,n,a,c,i,o){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,i=t.createElement(n),o=t.getElementsByTagName(n)[0],i.async=1,i.src=a,o.parentNode.insertBefore(i,o)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-25065548-2","auto"),ga("send","pageview"),window.onload=function(){try{_trackLink("demo papercss-admin-dashboard-template","demo","visit directly")}catch(e){}};</script>
-   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5442972248172818" data-ad-slot="1487770485" data-ad-format="auto"></ins>
-   <script>
-   (adsbygoogle = window.adsbygoogle || []).push({});
-   </script>
+  <!-- GOOGLE ANALYTICS AND FRIENDS -->
+  <script>function _trackLink(e, t, n) { t || (t = "Link"), n || (n = "click"), ga("send", { hitType: "event", eventCategory: t, eventAction: n, eventLabel: e }) } !function (e, t, n, a, c, i, o) { e.GoogleAnalyticsObject = c, e[c] = e[c] || function () { (e[c].q = e[c].q || []).push(arguments) }, e[c].l = 1 * new Date, i = t.createElement(n), o = t.getElementsByTagName(n)[0], i.async = 1, i.src = a, o.parentNode.insertBefore(i, o) }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-25065548-2", "auto"), ga("send", "pageview"), window.onload = function () { try { _trackLink("demo papercss-admin-dashboard-template", "demo", "visit directly") } catch (e) { } };</script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5442972248172818" data-ad-slot="1487770485" data-ad-format="auto"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
   <script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"https://www.mazipan.github.io/","name":"Irfan Maulana | Front End Developer","author":"Irfan Maulana","image":"http://mazipan.github.io/images/irfan-maulana.jpg","description":"Irfan Maulana is Front End Developer from Indonesia - Man that craft some code to build a beauty and readable code, experienced in web and desktop technology.","sameAs":["https://www.facebook.com/mazipanneh","https://instagram.com/maz_ipan","https://twitter.com/Maz_Ipan","https://id.linkedin.com/in/irfanmaulanamazipan","https://www.slideshare.net/IrfanMaulana21","https://github.com/mazipan"]}</script>
   <script type="application/ld+json">{"@context":"http://schema.org","@type":"Person","email":"mailto:mazipanneh@gmail.com","image":"http://mazipan.github.io/images/irfan-maulana.jpg","jobTitle":"Software Engineer","name":"Irfan Maulana","url":"https://www.mazipan.github.io/","sameAs":["https://www.facebook.com/mazipanneh","https://instagram.com/maz_ipan","https://twitter.com/Maz_Ipan","https://id.linkedin.com/in/irfanmaulanamazipan","https://www.slideshare.net/IrfanMaulana21","https://github.com/mazipan"]}</script>

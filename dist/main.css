@@ -8,7 +8,7 @@
 
 .menu--active { border-bottom: 2px solid #dedbd0; }
 
-.sidebar { background-color: #504f4c; height: 100vh; overflow-y: auto; overflow-x: hidden; padding: 0; }
+.sidebar { background-color: #504f4c; min-height: 100vh; overflow-y: auto; overflow-x: hidden; padding: 0; }
 
 .sidebar-title { background-color: rgba(0, 0, 0, 0.2); margin: .5em 0; padding: .5em .5em .3em .5em; font-size: .8rem; line-height: 1.5; color: #868276; }
 

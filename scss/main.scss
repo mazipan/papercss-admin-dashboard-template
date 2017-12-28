@@ -37,7 +37,7 @@ $sidebar : #504f4c;
 
 .sidebar{
   background-color: $sidebar;
-  height: 100vh;
+  min-height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
   padding: 0;
