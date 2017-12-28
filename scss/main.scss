@@ -1,8 +1,10 @@
 $text : #dedbd0;
+$background : #41403e;
+$sidebar : #504f4c;
 
 .header{
   padding: 1em;
-  background-color: #41403e;
+  background-color: $background;
   color: $text;
   display: flex;
   justify-content: space-between;
@@ -34,7 +36,7 @@ $text : #dedbd0;
 }
 
 .sidebar{
-  background-color: #504f4c;
+  background-color: $sidebar;
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
@@ -144,6 +146,7 @@ $text : #dedbd0;
   margin-bottom: .5em;
   
   a{
+    color: $background;
     background-image: none;
   }
 }
