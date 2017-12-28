@@ -45,3 +45,7 @@
 .notification ul li::before { content: ''; }
 
 .notification ul li .date { font-size: .7rem; padding-left: 1.3rem; color: #afacac; }
+
+.breadcrumb { margin-bottom: .5em; }
+
+.breadcrumb a { background-image: none; }
